@@ -83,7 +83,23 @@
                                                                       </block>
                                                                     </value>
                                                                     <next>
-                                                                      <block type="movement_stop" id="38"></block>
+                                                                      <block type="movement_left" id="183">
+                                                                        <next>
+                                                                          <block type="movement_right" id="193">
+                                                                            <next>
+                                                                              <block type="movement_left" id="203">
+                                                                                <next>
+                                                                                  <block type="movement_right" id="213">
+                                                                                    <next>
+                                                                                      <block type="movement_stop" id="38"></block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
                                                                     </next>
                                                                   </block>
                                                                 </next>
